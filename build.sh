@@ -1,3 +1,4 @@
+# Created build script so I don't spend half of my time typing in commands to flash script onto the hardware
 #!/bin/sh
 set -e
 TOP=${1:-blink}
