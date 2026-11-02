@@ -1,5 +1,5 @@
-# Created build script so I don't spend half of my time typing in commands to flash script onto the hardware
 #!/bin/sh
+# Created build script so I didn't spend half my time typing in commands to flash script onto hardware
 set -e
 TOP=${1:-blink}
 yosys -q -p "read_verilog $TOP.v; synth_gowin -family gw2a -top $TOP -json $TOP.json"
