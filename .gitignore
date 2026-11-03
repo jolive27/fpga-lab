@@ -1,5 +1,5 @@
 *.fs
 *.json
-.DS_Store
-sim
+*.DS_Store
+*_sim
 *.vcd
